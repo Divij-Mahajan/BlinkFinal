@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --primary-dark: #844B9F;
+  --primary-mid: #A158C4;
+  --primary-light: #F5F0F6;
+
+  --secondary-dark: #C7A21D;
+  --secondary-mid: #b8a356;
+  --secondary-light: #D3C491;
+
+
+
+  color: black;
+  background-color: var(--primary-light);
+  height: 100%;
+  width: 100%;
+
+}*/
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+
+  }
+
+} 
